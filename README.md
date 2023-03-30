@@ -1,2 +1,2 @@
 # EYE_CONTROLLED_MOUSE
-The program captures video from the computer's camera using OpenCV and displays a live feed of the camera stream with the detected facial landmarks and circles around the right eye to indicate that it's being tracked. And vertical distance between left eyelids for click operation.
+To use the Eye Controlled Mouse program, you need to position your face in front of the camera such that the right eye is clearly visible. As you move your right eye, the program will track the eye movements and move the mouse pointer accordingly. To perform a click operation, simply close your left eye, and the program will detect the change in the vertical distance between your left eyelids and perform a click event.
